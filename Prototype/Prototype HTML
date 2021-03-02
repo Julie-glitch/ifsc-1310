@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<!-- HTML Comment -->
+
+<head>
+  <title>HTML5 Prototype Example</title>
+  <meta charset="utf-8" />
+  <!--Declares Characterset -->
+  <meta name="description" content="This is a short keyword-rich narrative of the site's purpose" />
+  <meta name="author" content="Thomas Wallace" />
+  <meta name="keywords" content="UALR, UA Little Rock, Information Science, IFSC, Web Technologies" />
+</head>
+
+<body>
+  <div class="Basic Info">
+ 
+    <header class="primary">
+      <h1>Julie Hatcher</h1>
+      
+    </header>
+    <!--#header-->
+    <section id="content">
+      <!--(Document Title)-->
+      <h2 >Good Afternoon,</h2>
+      <!--(Primary Content Heading)-->
+      <h3>Here's some info about me</h3>
+
+      <li>Im 21.</li>
+      <li>I'm A Computer Science Major</li>
+      <li>I have a several intrests in art, music, and software and how they work</li>
+      </div>
+      <div class="Diving in Deeper">
+          <h1>Info</h1>
+        <p>My <strong>Favorite</strong> Artist is <em>Johnen Vasquez</em>. My favorite work of his is <em>I Feel Sick.</em> It has given me the drive I need to have to be the person i want to be. My favorite band is <em>MGMT</em>, I even have a tattoo of their album,<em> Little Dark Age.</em> <img src="/ifsc-1310/Prototype/Assets/img/80714188_166779811348740_6471605998049034240_n.1.jpg"></img> I have a lot of tattoos, which is indicative of how much I love art. I got really into computers at a young age. It completely enamored me and I found a safe sapce inside of it .   </p>
+      </div>
+      
+      <p></p>
+      <table border="1">
+        <caption>Things I Like</caption>
+        <tr>
+          <th scope="col">Art</th>
+          <th scope="col">Music</th>
+          <th scope="col">Software</th>
+        </tr>
+        
+        <tr>
+          <td>Johnen Vasquez</td>
+          <td>MGMT</td>
+          <td>Blender</td>
+        </tr>
+        <tr>
+          <td>Van Gogh</td>
+          <td>Brockhampton</td>
+          <td>Krita</td>
+        </tr>
+        <tr>
+          <td>Damon Albarn</td>
+          <td>Dominic Fike</td>
+          <td>TOR</td>
+        </tr>
+         <tr>
+          <td>Tera McPherson</td>
+          <td>Denzel Curry</td>
+          <td>Steam</td>
+        </tr>       
+        <tr>
+          <td>Ghost Town</td>
+          <td>Mac Miller</td>
+          <td>PCSX2</td>
+        </tr>
+        <tr>
+          <td>Andrew Hussie</td>
+          <td>Kali Uchis</td>
+          <td>Audacity</td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <br>
+
+      <form method="post" action="processing-script.php">
+        <fieldset>
+          <legend>Tell Me About You</legend>
+          <label for="username">Name:</label><input type="text" id="username" name="username" />
+          <label for="address">Address</label><textarea id="address" name="address"></textarea>
+          <label for="color">Favorite Color</label>
+          <select id="color" name="color">
+            <option value="R">Red</option>
+            <option value="G">Green</option>
+            <option value="B">Blue</option>
+            <option value="null" selected>Select Color</option>
+          </select>
+          <input type="submit" value="CHEESE" />
+        </fieldset>
+
+      </form>
+      <br>
+      <br>
+      <br>
+
+      <p> </p>
+
+      <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="ualr logo" />
+
+      <h3>Life advice and Lyrics I've Found Useful</h3>
+      <!--(Subsection I)-->
+
+      <p>One thing I've always found intresting in life is the strings of information that have guided me to where i am today, I want share some of those things with you.</p>
+
+      <p> Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+
+      <!--This is a list of instructions-->
+
+      <!--This is a list of items to purchase at the grocery store.-->
+      <ul>
+        <li>"Keep your head high, smile when the trouble rumblin."- Kevin Abstract</li>
+        <li>"Get in your zone, don't even look at them at all. Their shallow observations will only stall the transformation. You've become art, how could they even start to see, Beyond your presentation when they've got no imagination?"- The Scary Jokes</li>
+        <li>"Exactly what you run from you end up chasing"-Unkown</li>
+        <li>"Sometimes you have to close a door to open a window."-Unkown</li>
+        <h2>Favorite People</h2>
+        <ol>
+        <li>Amy</li>
+          <li>Salem</li>
+          <li>Tyrese</li>
+          <li>Hazel</li>
+  </ol>
+         
+            
+            <h3>Favorite food</h3>
+        
+            <li>Sushi</li>
+            <li>Anything hot</li>
+             <li>Greek Food </li>
+        <h4> My Typical Outfit </h4>
+              <ul>
+                <li>Overload on accesories near the face</li>
+                <li>A graphic tee of some sort (usually anime/manga or fandom related)</li>
+                <li>Skinny jeans (tripp, lucky star, or royal bones.</li>
+                <li>Boots</li>
+        </ul>
+     
+
+
+      <!--This is an Example of how we should mark up a term and its description(s)-->
+
+      <dl>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dd>Description 3</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+      </dl>
+
+      <h4>This is a Subsection of Subsection I</h4>
+
+      <blockquote>Content precedes design. Design in the absence of content is not design, it's decoration. <cite>From Designing with Web Standards by Jeffery Zeldman.</cite></blockquote>
+
+      <h3>This is a Subsection of the Primary Content</h3>
+      <!--(Subsection II)-->
+
+      <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <p> Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. Proin adipiscing ultrices dui. Duis porttitor, libero ut eleifend pellentesque, risus turpis fermentum est, vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in odio sed nulla luctus sodales.</p>
+    </section>
+    <!--#content-->
+    <nav class="primary">
+      <!--This is the Navigation for the Page-->
+      <ul>
+        <li><a href="index.pdf" download title="Take me home country roads">Home</a></li><!-- Relative Link -->
+        <li><a href="https://ualr.edu">About</a></li><!-- Absolute Link -->
+        <li><a href="https://ualr.edu/#news" target="_blank">Services</a></li><!-- Anchor Link -->
+        <li><a href="mailto:youremail@domain.com" download>Contact</a></li><!-- Email Link-->
+      </ul>
+    </nav>
+    <!--#nav-->
+    <footer class="primary">
+      <h6>&copy; 2021 Thomas Wallace | <a href="#top">Back to Top</a></h6>
+    </footer>
+    <!--#footer-->
+  </div>
+  <!--#container-->
+</body>
+
+</html>
